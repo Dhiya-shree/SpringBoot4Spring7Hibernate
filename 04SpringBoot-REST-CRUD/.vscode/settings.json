@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "rest_exceptionHandling/src/main/java",
+        "rest_exception/src/main/java"
+    ]
+}

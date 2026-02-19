@@ -1,0 +1,8 @@
+{
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.project.sourcePaths": [
+        "preconstruct_postdestroy_lifecycle_methods/src/main/java",
+        "config_bean/src/main/java"
+    ]
+}

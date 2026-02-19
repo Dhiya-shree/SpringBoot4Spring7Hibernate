@@ -1,0 +1,37 @@
+
+Request Param - Extract values from Query String 
+PathVariable - Extract values from URI Path 
+
+
+
+PathVariable :  
+https://localhost:8080/api/student/123 
+GetMapping("/student/{id}")
+@PathVariable String id 
+==> Use ID in methods 
+
+RequestParam :  
+https://localhost:8080/api/student?id=123
+GetMapping("/student")
+@RequestParam String id 
+==> Use ID in methods 
+
+
+PathVariable :  Not encoded - from URI path
+https://localhost:8080/api/student/12+3
+GetMapping("/student/{id}")
+@PathVariable String id 
+id = "12+3"
+
+RequestParam : Encoded 
+https://localhost:8080/api/student?id=12+3
+GetMapping("/student")
+@RequestParam String id 
+id = "12 3"
+
+Optional :
+@RequestParam(required=false) String id
+
+Be Careful!!!! - determines the path 
+GetMapping("/student/optional/{id}","/student/optional")
+@PathVariable(required=false) String id

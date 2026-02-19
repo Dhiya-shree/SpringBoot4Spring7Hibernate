@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "application02_devtool",
+        "application02_Dev/src",
+        "application02_Dev",
+        "application04-security/src/main/java/com/spring/overview/application01"
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

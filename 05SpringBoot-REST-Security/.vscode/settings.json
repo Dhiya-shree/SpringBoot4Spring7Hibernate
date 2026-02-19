@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "rest-security-jdbc-plain-text/src/main/java/com/example/rest_default_security"
+    ],
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+}

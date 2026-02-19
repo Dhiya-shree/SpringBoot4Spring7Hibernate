@@ -1,0 +1,4 @@
+ Exception handler - for a single controller , methods are annotated
+ ResponseStatusException Handler - for simple error , sending HTTP status   
+ RestControllerAdvice - Rest specific RestControllerAdvice
+ ControllerAdvice - Global Exception for all controller 

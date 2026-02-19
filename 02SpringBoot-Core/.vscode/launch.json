@@ -1,0 +1,63 @@
+{
+    "configurations": [
+        
+        {
+            "type": "java",
+            "name": "LifeCycleMethodApplication",
+            "request": "launch",
+            "mainClass": "com.example.qualifier_field_injection.LifeCycleMethodApplication",
+            "projectName": "preconstruct_postdestroy_lifecycle_methods"
+        },
+        {
+            "type": "java",
+            "name": "PrimaryApplication",
+            "request": "launch",
+            "mainClass": "com.example.qualifier_field_injection.PrimaryApplication",
+            "projectName": "primary_bean"
+        },
+        {
+            "type": "java",
+            "name": "QualifierFieldInjectionApplication",
+            "request": "launch",
+            "mainClass": "com.example.qualifier_field_injection.QualifierFieldInjectionApplication",
+            "projectName": "qualifier_field_injection"
+        },
+        {
+            "type": "java",
+            "name": "ComponentScanningApplication",
+            "request": "launch",
+            "mainClass": "com.example.component_scanning.ComponentScanningApplication",
+            "projectName": "component_scanning"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConstructorInjectionApplication<constructor_injection>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.constructor_injection.ConstructorInjectionApplication",
+            "projectName": "constructor_injection",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ComponentScanningApplication<component_scanning>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.component_scanning.ComponentScanningApplication",
+            "projectName": "constructor_injection",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-LazyInitiation<lazy_initiation>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.qualifier_field_injection.LazyInitiation",
+            "projectName": "lazy_initiation",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

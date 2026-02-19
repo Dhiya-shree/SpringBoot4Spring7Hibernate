@@ -1,0 +1,6 @@
+{
+    "java.project.sourcePaths": [
+        "mvc2_thymeleaf_form/src/main/java"
+    ],
+    "java.compile.nullAnalysis.mode": "disabled"
+}
